@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    
+}
+.h{
+    display: flex;
+    height: 100vh;
+
+}
+
+.sidebar {
+    width: 20%;
+    background-color: rgb(230, 225, 217);
+    color: rgb(239, 234, 234);
+    padding: 20px;
+    height: 100vh;
+    position: fixed;
+    padding-top: 60px;
+}
+
+h2{
+    color: black;
+}
+.content {
+    margin-left: 20%; /* Adjust margin to make space for the fixed sidebar */
+    padding: 20px;
+
+}
+.content1 {
+    margin-left: 20%; /* Adjust margin to make space for the fixed sidebar */
+    padding: 20px;
+
+}
+
+/* Style the buttons in the sidebar */
+.sidebar button {
+    display: block;
+    width: 100%;
+    font-size: 20px;
+    padding: 15px;
+    margin-bottom: 10px;
+    background-color: #555;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 10%;
+}
+
+/* Style the content sections */
+
+.content-section {
+    display: block;
+}
+button a{
+    text-decoration: none;
+    color: aliceblue;
+}

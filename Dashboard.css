@@ -1,0 +1,56 @@
+table {
+  border-collapse: collapse;
+  margin-top: 50px;
+  min-width: 800px;
+}
+h2{
+  margin-top: 50%;
+  padding-top: 7%;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 15px;
+  padding-left: 10PX;
+  padding-right: 10px;
+  text-align: left;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+th {
+  background-color: #333;
+  color: white;
+}
+
+/* Add some spacing to the table headers and cells */
+th, td {
+  padding: 12px;
+}
+
+/* Center align the text in the first column (S No) */
+td:first-child {
+  text-align: center;
+}
+
+/* Center align the text in the third column (Page No) */
+td:nth-child(3) {
+  text-align: center;
+}
+
+/* Style the table header (S No, Contents, Page No) */
+th {
+  background-color: #333;
+  color: white;
+}
+
+/* Add hover effect to rows */
+tr:hover {
+  background-color: #ddd;
+}
+td a{
+text-decoration: none;
+color: black;
+}
